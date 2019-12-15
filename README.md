@@ -1,3 +1,5 @@
+This repozitory is a bug fix for [DCGAN-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow).
+
 # DCGAN in Tensorflow
 
 Tensorflow implementation of [Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434) which is a stabilize Generative Adversarial Networks. The referenced torch code can be found [here](https://github.com/soumith/dcgan.torch).
@@ -56,7 +58,7 @@ If your dataset is located in a different root directory:
     $ python main.py --dataset DATASET_NAME --data_dir DATASET_ROOT_DIR
     $ # example
     $ python main.py --dataset=eyes --data_dir ../datasets/ --input_fname_pattern="*_cropped.png" --train
-    
+
 
 ## Results
 
